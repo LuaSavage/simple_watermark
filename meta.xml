@@ -1,0 +1,13 @@
+<meta>
+    <info author="MiamiNightStudio, russianSlave" description="simple watermark" type="script" version="1" /> 
+	<min_mta_version client="1.5.3" server="1.5.3" />
+	
+	<oop>true</oop>
+    <script src="util/include.lua" 			type = "client" cache = "false"/>
+    <script src="util/util.lua" 			type = "shared" cache = "false"/>
+
+	<script type="server" src="t_server.lua"  /> 	
+	<script type="client" src="t_client.lua" cache = "false" /> 
+
+	
+</meta>
